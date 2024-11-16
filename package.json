@@ -1,0 +1,23 @@
+{
+  "name": "automationproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Test": "npx cypress run",
+    "headtest":"npx cypress run --headed",
+    "chrometest":"npx cypress run --headed --browser chrome",
+    "recorddashboardtest":"npx cypress run --record --key add435a3-87d4-4ba4-b815-eb7be0e4084c",
+    "smoketest":"npx cypress run --spec\"cypress/integration/examples/Framework_Mocha_2.js\""
+    
+
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
